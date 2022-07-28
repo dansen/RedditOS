@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		641DAD2C2892DCCE008F4055 /* UI in Frameworks */ = {isa = PBXBuildFile; productRef = 641DAD2B2892DCCE008F4055 /* UI */; };
 		6906880D24B743900067D973 /* SubredditPostRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6906880C24B743900067D973 /* SubredditPostRow.swift */; };
 		691747E224DBEA240017E068 /* QuickSearchResultRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691747E124DBEA240017E068 /* QuickSearchResultRow.swift */; };
 		6918A8CB24C1FEDC008A74E1 /* FlairView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6918A8CA24C1FEDC008A74E1 /* FlairView.swift */; };
@@ -41,7 +42,6 @@
 		6970A0BF24B8343100B11031 /* PopoverSearchSubredditRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6970A0BE24B8343100B11031 /* PopoverSearchSubredditRow.swift */; };
 		6970A0C124B88BA200B11031 /* PostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6970A0C024B88BA200B11031 /* PostViewModel.swift */; };
 		6970A0C324B896CD00B11031 /* PostDetailCommentsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6970A0C224B896CD00B11031 /* PostDetailCommentsSection.swift */; };
-		697E324524E3E7D90006F00F /* UI in Frameworks */ = {isa = PBXBuildFile; productRef = 697E324424E3E7D90006F00F /* UI */; };
 		697E324724E3ED620006F00F /* CommentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697E324624E3ED620006F00F /* CommentViewModel.swift */; };
 		697E324924E3EDE70006F00F /* CommentVoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697E324824E3EDE70006F00F /* CommentVoteView.swift */; };
 		697E324B24E3EFCB0006F00F /* CommentActionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697E324A24E3EFCB0006F00F /* CommentActionsView.swift */; };
@@ -146,9 +146,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				641DAD2C2892DCCE008F4055 /* UI in Frameworks */,
 				9F7E75E42654102700390010 /* AVKit.framework in Frameworks */,
 				69D459FE264BBB0000A98C6F /* Kingfisher in Frameworks */,
-				697E324524E3E7D90006F00F /* UI in Frameworks */,
 				69EACF1C24B7272E00303A16 /* Backend in Frameworks */,
 				9F8EE49126510BCF00BDE4AC /* MarkdownUI in Frameworks */,
 			);
@@ -430,9 +430,9 @@
 			name = RedditOs;
 			packageProductDependencies = (
 				69EACF1B24B7272E00303A16 /* Backend */,
-				697E324424E3E7D90006F00F /* UI */,
 				69D459FD264BBB0000A98C6F /* Kingfisher */,
 				9F8EE49026510BCF00BDE4AC /* MarkdownUI */,
+				641DAD2B2892DCCE008F4055 /* UI */,
 			);
 			productName = RedditOs;
 			productReference = 69EACEFF24B63D5800303A16 /* Curiosity.app */;
@@ -675,12 +675,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = RedditOs/RedditOs.entitlements;
-				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 30072021;
 				DEVELOPMENT_ASSET_PATHS = "\"RedditOs/Preview Content\"";
-				DEVELOPMENT_TEAM = Z6P74P6T99;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = RedditOs/Info.plist;
@@ -688,7 +688,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				MARKETING_VERSION = 0.5.5;
 				PRODUCT_BUNDLE_IDENTIFIER = com.thomasricouard.curiosity;
 				PRODUCT_NAME = Curiosity;
@@ -702,12 +702,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = RedditOs/RedditOs.entitlements;
-				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 30072021;
 				DEVELOPMENT_ASSET_PATHS = "\"RedditOs/Preview Content\"";
-				DEVELOPMENT_TEAM = Z6P74P6T99;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = RedditOs/Info.plist;
@@ -715,7 +715,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				MARKETING_VERSION = 0.5.5;
 				PRODUCT_BUNDLE_IDENTIFIER = com.thomasricouard.curiosity;
 				PRODUCT_NAME = Curiosity;
@@ -766,7 +766,7 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		697E324424E3E7D90006F00F /* UI */ = {
+		641DAD2B2892DCCE008F4055 /* UI */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = UI;
 		};
